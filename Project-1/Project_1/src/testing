@@ -1,0 +1,25 @@
+y
+help
+help memalloc
+memalloc 15
+y
+help memwrite
+memwrite 3 3adf1bc9
+y
+help memread
+memread 3
+n
+help meminv
+meminv 3
+y
+help patterngen
+patterngen 5 10 345 1000
+y
+help patternverify
+patternverify 5 7 345 1000
+y
+patternverify 5 8 346 1000
+y
+memfree
+help exit
+exit

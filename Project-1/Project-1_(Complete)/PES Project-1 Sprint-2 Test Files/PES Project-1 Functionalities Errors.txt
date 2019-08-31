@@ -1,0 +1,20 @@
+Errors/Issues:
+
+1. The loop repeats twice as opposed to once.
+2. Issues with Psuedo-random number storage.
+3. Addition of timing loop to Psuedo Generator function is still pending.
+4. Adding complexity where if the user enters an address which is close to the
+   boundary of the memory allocated then he/she should be warned that not all 
+   data will be stored since the width of the storage space beginning from the
+   starting of the address for storage to the allocation limit.
+
+address - Relative and real
+Boundary Check
+Time involvement in every function
+
+UNITY (Extra Points)
+
+value1 = address ni value
+value2 = data ni value
+
+boundchecking

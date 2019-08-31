@@ -1,0 +1,22 @@
+y
+help
+help memalloc
+memalloc 32
+y
+memwrite 13 11ff09
+y
+memread 3
+n
+memread m 15 6
+meminv 13
+y
+help patterngen
+patterngen 8 25 98125 1000000
+y
+patternverify 8 25 98125 1000000
+y
+patternverify 8 10 98125 1000000
+n
+patternverify 8 25 98125 100000
+y
+exit

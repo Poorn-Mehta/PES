@@ -1,0 +1,335 @@
+
+
+
+CBuffer Init Test
+Buffer0 Length: 11	Buffer1 Length: 12
+
+
+
+CBuffer Overwrite Test
+Writing 20 bytes in Buffer0
+
+
+
+Starting to Write
+Wrote Å at 0 in Buffer0
+Wrote 4 at 1 in Buffer0
+Wrote ò at 2 in Buffer0
+Wrote < at 3 in Buffer0
+Wrote õ at 4 in Buffer0
+Wrote ë at 5 in Buffer0
+Wrote _ at 6 in Buffer0
+Wrote . at 7 in Buffer0
+Wrote p at 8 in Buffer0
+Wrote ] at 9 in Buffer0
+Wrote H at 10 in Buffer0
+
+
+Starting to Overwrite
+Overwrote Y at 0 in Buffer0
+Overwrote v at 1 in Buffer0
+Overwrote & at 2 in Buffer0
+Overwrote ù at 3 in Buffer0
+Overwrote ü at 4 in Buffer0
+Overwrote ï at 5 in Buffer0
+Overwrote , at 6 in Buffer0
+Overwrote = at 7 in Buffer0
+Overwrote - at 8 in Buffer0
+
+
+CBuffer Emptyread Test
+Reading 18 bytes from Buffer0
+
+
+
+Starting to Read
+Read Y from 0 in Buffer0
+Read v from 1 in Buffer0
+Read & from 2 in Buffer0
+Read ù from 3 in Buffer0
+Read ü from 4 in Buffer0
+Read ï from 5 in Buffer0
+Read , from 6 in Buffer0
+Read = from 7 in Buffer0
+Read - from 8 in Buffer0
+Read ] from 9 in Buffer0
+Read H from 10 in Buffer0
+
+
+Starting to Emptyread
+Buffer0 Empty
+Buffer0 Empty
+Buffer0 Empty
+Buffer0 Empty
+Buffer0 Empty
+Buffer0 Empty
+Buffer0 Empty
+
+
+CBuffer Partialfill Test
+Writing 10 bytes in Buffer0
+
+
+
+Starting to Write
+Wrote D at 0 in Buffer0
+Wrote v at 1 in Buffer0
+Wrote = at 2 in Buffer0
+Wrote K at 3 in Buffer0
+Wrote n at 4 in Buffer0
+Wrote ï at 5 in Buffer0
+Wrote b at 6 in Buffer0
+Wrote , at 7 in Buffer0
+Wrote Ä at 8 in Buffer0
+Wrote ; at 9 in Buffer0
+
+
+Starting to Read
+Read D from 0 in Buffer0
+Read v from 1 in Buffer0
+Read = from 2 in Buffer0
+Read K from 3 in Buffer0
+Read n from 4 in Buffer0
+Read ï from 5 in Buffer0
+Read b from 6 in Buffer0
+Read , from 7 in Buffer0
+Read Ä from 8 in Buffer0
+Read ; from 9 in Buffer0
+
+
+Starting to Emptyread
+Buffer0 Empty
+
+
+Buffer Numberofelements Test
+Writing & Reading 18 bytes of data from Buffer1
+
+
+
+Starting to Write
+Number of Elements in Buffer1 are 0
+Wrote p at 0 in Buffer1
+Number of Elements in Buffer1 are 1
+Wrote W at 1 in Buffer1
+Number of Elements in Buffer1 are 2
+Wrote * at 2 in Buffer1
+Number of Elements in Buffer1 are 3
+Wrote b at 3 in Buffer1
+Number of Elements in Buffer1 are 4
+Wrote ç at 4 in Buffer1
+Number of Elements in Buffer1 are 5
+Wrote 8 at 5 in Buffer1
+Number of Elements in Buffer1 are 6
+Wrote * at 6 in Buffer1
+Number of Elements in Buffer1 are 7
+Wrote J at 7 in Buffer1
+Number of Elements in Buffer1 are 8
+Wrote _ at 8 in Buffer1
+Number of Elements in Buffer1 are 9
+Wrote c at 9 in Buffer1
+Number of Elements in Buffer1 are 10
+Wrote ! at 10 in Buffer1
+Number of Elements in Buffer1 are 11
+Wrote \ at 11 in Buffer1
+Number of Elements in Buffer1 are 12
+
+
+Starting to Overwrite
+Overwrote X at 0 in Buffer1
+Number of Elements in Buffer1 are 12
+Overwrote ó at 1 in Buffer1
+Number of Elements in Buffer1 are 12
+Overwrote I at 2 in Buffer1
+Number of Elements in Buffer1 are 12
+Overwrote c at 3 in Buffer1
+Number of Elements in Buffer1 are 12
+Overwrote , at 4 in Buffer1
+Number of Elements in Buffer1 are 12
+Overwrote U at 5 in Buffer1
+Number of Elements in Buffer1 are 12
+
+
+Starting to Read
+Read X from 0 in Buffer1
+Number of Elements in Buffer1 are 11
+Read ó from 1 in Buffer1
+Number of Elements in Buffer1 are 10
+Read I from 2 in Buffer1
+Number of Elements in Buffer1 are 9
+Read c from 3 in Buffer1
+Number of Elements in Buffer1 are 8
+Read , from 4 in Buffer1
+Number of Elements in Buffer1 are 7
+Read U from 5 in Buffer1
+Number of Elements in Buffer1 are 6
+Read * from 6 in Buffer1
+Number of Elements in Buffer1 are 5
+Read J from 7 in Buffer1
+Number of Elements in Buffer1 are 4
+Read _ from 8 in Buffer1
+Number of Elements in Buffer1 are 3
+Read c from 9 in Buffer1
+Number of Elements in Buffer1 are 2
+Read ! from 10 in Buffer1
+Number of Elements in Buffer1 are 1
+Read \ from 11 in Buffer1
+Number of Elements in Buffer1 are 0
+
+
+Starting to Emptyread
+Buffer0 Empty
+Number of Elements in Buffer1 are 0
+Buffer0 Empty
+Number of Elements in Buffer1 are 0
+Buffer0 Empty
+Number of Elements in Buffer1 are 0
+Buffer0 Empty
+Number of Elements in Buffer1 are 0
+Buffer0 Empty
+Number of Elements in Buffer1 are 0
+Buffer0 Empty
+Number of Elements in Buffer1 are 0
+
+
+Buffer Runtimelengthchange Test
+New length of Buffer1 is 17
+
+Writing & Reading 31 bytes of data from Buffer1
+
+
+
+Starting to Write
+Number of Elements in Buffer1 are 0
+Wrote 9 at 0 in Buffer1
+Number of Elements in Buffer1 are 1
+Wrote q at 1 in Buffer1
+Number of Elements in Buffer1 are 2
+Wrote Y at 2 in Buffer1
+Number of Elements in Buffer1 are 3
+Wrote M at 3 in Buffer1
+Number of Elements in Buffer1 are 4
+Wrote ì at 4 in Buffer1
+Number of Elements in Buffer1 are 5
+Wrote ' at 5 in Buffer1
+Number of Elements in Buffer1 are 6
+Wrote B at 6 in Buffer1
+Number of Elements in Buffer1 are 7
+Wrote U at 7 in Buffer1
+Number of Elements in Buffer1 are 8
+Wrote * at 8 in Buffer1
+Number of Elements in Buffer1 are 9
+Wrote ö at 9 in Buffer1
+Number of Elements in Buffer1 are 10
+Wrote o at 10 in Buffer1
+Number of Elements in Buffer1 are 11
+Wrote 9 at 11 in Buffer1
+Number of Elements in Buffer1 are 12
+Wrote j at 12 in Buffer1
+Number of Elements in Buffer1 are 13
+Wrote ù at 13 in Buffer1
+Number of Elements in Buffer1 are 14
+Wrote B at 14 in Buffer1
+Number of Elements in Buffer1 are 15
+Wrote $ at 15 in Buffer1
+Number of Elements in Buffer1 are 16
+Wrote ä at 16 in Buffer1
+Number of Elements in Buffer1 are 17
+
+
+Starting to Overwrite
+Overwrote Y at 0 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote . at 1 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote 5 at 2 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote ê at 3 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote h at 4 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote - at 5 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote L at 6 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote ü at 7 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote $ at 8 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote m at 9 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote Z at 10 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote 0 at 11 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote " at 12 in Buffer0
+Number of Elements in Buffer1 are 17
+Overwrote < at 13 in Buffer0
+Number of Elements in Buffer1 are 17
+
+
+Starting to Read
+Read Y from 0 in Buffer1
+Number of Elements in Buffer1 are 16
+Read . from 1 in Buffer1
+Number of Elements in Buffer1 are 15
+Read 5 from 2 in Buffer1
+Number of Elements in Buffer1 are 14
+Read ê from 3 in Buffer1
+Number of Elements in Buffer1 are 13
+Read h from 4 in Buffer1
+Number of Elements in Buffer1 are 12
+Read - from 5 in Buffer1
+Number of Elements in Buffer1 are 11
+Read L from 6 in Buffer1
+Number of Elements in Buffer1 are 10
+Read ü from 7 in Buffer1
+Number of Elements in Buffer1 are 9
+Read $ from 8 in Buffer1
+Number of Elements in Buffer1 are 8
+Read m from 9 in Buffer1
+Number of Elements in Buffer1 are 7
+Read Z from 10 in Buffer1
+Number of Elements in Buffer1 are 6
+Read 0 from 11 in Buffer1
+Number of Elements in Buffer1 are 5
+Read " from 12 in Buffer1
+Number of Elements in Buffer1 are 4
+Read < from 13 in Buffer1
+Number of Elements in Buffer1 are 3
+Read B from 14 in Buffer1
+Number of Elements in Buffer1 are 2
+Read $ from 15 in Buffer1
+Number of Elements in Buffer1 are 1
+Read ä from 16 in Buffer1
+Number of Elements in Buffer1 are 0
+
+
+Starting to Emptyread
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0
+Buffer1 Empty
+Number of Elements in Buffer1 are 0

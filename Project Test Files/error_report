@@ -1,0 +1,18 @@
+Program received signal SIGSEGV, Segmentation fault.
+0x00005555555568fa in memwrite ()
+(gdb) bt
+#0  0x00005555555568fa in memwrite ()
+#1  0x0000555555555908 in Space_Memwrite_Func ()
+#2  0x0000555555556234 in Input_Lookup ()
+#3  0x000055555555567f in main ()
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000555555556aeb in generator ()
+(gdb) bt
+#0  0x0000555555556aeb in generator ()
+#1  0x0000555555556c90 in patterngen ()
+#2  0x0000555555555c74 in Space_Patterngen_Func ()
+#3  0x0000555555556234 in Input_Lookup ()
+#4  0x000055555555567f in main ()
+(gdb) 
+
